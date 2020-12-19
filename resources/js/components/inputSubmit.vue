@@ -5,7 +5,7 @@
         <input v-model="form.title" :class="{'is-invalid' : form.errors.has('title')}" type="text" class="form-control form-control-lg" @keydown="form.errors.clear('title')"
         aria-label="Recipient's username" aria-describedby="basic-addon2">
         <div class="input-group-append">
-        <button class="btn btn-success" type="submit">Add task</button>
+        <button class="btn btn-success" type="submit">Add task to list</button>
         </div>
         </div>
         <span class="text-danger pt-3 d-flex justify-content-center" v-if="form.errors.has('title')" v-text="form.errors.get('title')"></span>
