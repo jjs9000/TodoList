@@ -6,10 +6,6 @@
 
 require('./bootstrap');
 
-import Vue from 'vue'
-
-import App from './vue/app'
-
 window.Vue = require('vue');
 
 /**
