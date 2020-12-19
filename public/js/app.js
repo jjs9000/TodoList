@@ -12090,7 +12090,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   data: function data() {
     return {
-      items: []
+      items: ['items']
     };
   },
   methods: {
@@ -12176,6 +12176,11 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _listItem__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./listItem */ "./resources/js/components/listItem.vue");
+//
+//
+//
+//
+//
 //
 //
 //

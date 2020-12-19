@@ -1,5 +1,10 @@
 <template>
     <div>
+        <!-- <list-item
+                    :item="item"
+                    class="item"
+                    v-on:itemchanged="$emit('reloadList')"
+                    /> -->
         <div v-for="(item, index) in items" :key="index">
                 <list-item
                     :item="item"
