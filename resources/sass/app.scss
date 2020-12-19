@@ -12,3 +12,7 @@ body{
     height: 100vh;
     background-image: linear-gradient(lightblue, lightpink);
 }
+
+.todo svg:hover{
+    cursor: pointer;
+}

@@ -10909,3 +10909,7 @@ body {
   background-image: linear-gradient(lightblue, lightpink);
 }
 
+.todo svg:hover {
+  cursor: pointer;
+}
+
