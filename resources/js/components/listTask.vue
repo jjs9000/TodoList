@@ -6,7 +6,7 @@
                     v-on:itemchanged="$emit('reloadList')"
                     /> -->
         <div v-for="(item, index) in items" :key="index">
-                <list-item
+                <list-thing
                     :item="item"
                     class="item"
                     v-on:itemchanged="$emit('reloadList')"
@@ -16,13 +16,13 @@
 </template>
 
 <script>
-import listItem from "./listItem"
-import ListItem from './listItem.vue'
+import listThing from "./listThing"
+import ListThing from './listThing.vue'
 
 export default {
     props: ['items'],
     components: {
-        listItem
+        listThing
     }
 }
 </script>
